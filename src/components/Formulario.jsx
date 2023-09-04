@@ -116,7 +116,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 
         <div className="mt-5">
           <label htmlFor="mascota" className="block text-gray-700 font-bold">
-            Nombre Mascota
+            Nombre Mascota:
           </label>
           <input type="text"
             className="border-2 w-full mt-2 placeholder-slate-400 rounded-md h-10 focus:outline-none focus:border-indigo-600"
@@ -148,7 +148,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
           <input type="email" className="border-2 w-full h-10 mt-2 placeholder-slate-400 rounded-md peer focus:outline-none focus:border-indigo-600"
             name=""
             id="email"
-            placeholder="email del propietario"
+            placeholder="Email del propietario"
             value={email}
             onChange={(e) => setEmail(e.target.value)} />
           <p className="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
@@ -158,7 +158,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 
         <div className="mt-5">
           <label htmlFor="alta" className="block text-gray-700 font-bold">
-            Alta:
+            Fecha Alta:
           </label>
           <input type="date"
             className="border-2 w-full mt-2 placeholder-slate-400 rounded-md h-10 focus:outline-none focus:border-indigo-600"
@@ -169,13 +169,13 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 
         <div className="mt-5">
           <label htmlFor="sintomas" className="block text-gray-700 font-bold">
-            Sítomas:
+            Síntomas:
           </label>
           <textarea
             className="border-2 w-full mt-2 rounded-md focus:outline-none focus:border-indigo-600"
             name=""
             id="sintomas"
-            placeholder="Describe los sítomas ..."
+            placeholder="Describe los síntomas ..."
             value={sintomas}
             onChange={(e) => setSintomas(e.target.value)}>
 
