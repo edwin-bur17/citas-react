@@ -16,7 +16,7 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
     return (
         <div className="bg-white shadow-lg px-5 py-10 rounded-lg m-5">
             <p className="font-bold mb-3 text-gray-700">
-                Nombre: {' '}
+                Nombre de la Mascota: {' '}
                 <span className="font-normal normal-case">{nombre}</span>
             </p>
 
@@ -26,17 +26,17 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
             </p>
 
             <p className="font-bold mb-3 text-gray-700">
-                Email: {' '}
+                Correo electrónico: {' '}
                 <span className="font-normal normal-case">{email}</span>
             </p>
 
             <p className="font-bold mb-3 text-gray-700">
-                Fecha Alta: {' '}
+                Fecha de alta: {' '}
                 <span className="font-normal normal-case">{fecha}</span>
             </p>
 
             <p className="font-bold mb-3 text-gray-700">
-                Sístoma: {' '}
+                Síntomas: {' '}
                 <span className="font-normal normal-case">{sintomas}</span>
             </p>
 
